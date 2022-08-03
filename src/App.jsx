@@ -1,5 +1,8 @@
-import logo from './logo.svg';
+/* eslint-disable import/order */
 import './App.css';
+
+import logo from './logo.svg';
+
 
 function App() {
   return (
