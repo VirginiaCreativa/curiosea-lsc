@@ -4,9 +4,11 @@ import Logo from '../../common/Logo/Logo';
 import Navigation from '../Navigation/Navigation';
 
 const Header = () => (
-  <div className="flex align-middle p-5">
-    <Logo size="30px" />
-    <Navigation />
+  <div className="container mx-auto">
+    <div div className="flex align-middle py-8" >
+      <Logo size="30px" />
+      <Navigation />
+    </div>
   </div>
 );
 
