@@ -3,7 +3,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 
 import App from './App';
-import './styles/index.scss';
+import './styles/utilis.scss';
 
 // eslint-disable-next-line import/order
 import reportWebVitals from './reportWebVitals';
