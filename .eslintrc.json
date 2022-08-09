@@ -2,7 +2,7 @@
   "root": true,
   "env": {
     "browser": true,
-    "es2021": true,
+    "es6": true,
     "jest/globals": true,
     "node": true
   },
@@ -88,7 +88,7 @@
     "no-unused-vars": "off",
     "react/function-component-definition": "off",
     "react/react-in-jsx-scope": "off",
-    "react/prop-types": "warn",
+    "react/prop-types": 0,
     "semi": "error",
     "import/order": [
       "warn",
