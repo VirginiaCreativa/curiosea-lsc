@@ -1,7 +1,23 @@
 import React from 'react';
+import styled from 'styled-components';
 
+import Variable from '../../styles/variable';
+
+const NavStyle = styled.div`
+  display: flex;
+  align-content: center;
+  align-items:  center;
+  ul {
+    li {
+      a {
+        font-weight: 600;
+        color: ${Variable.blue};
+      }
+    }
+  }
+`;
 const Navigation = () => (
-  <nav className="flex items-center">
+  <NavStyle className="flex items-center">
     <div className="block md:hidden">
       <button type="button">--</button>
     </div>
@@ -15,7 +31,7 @@ const Navigation = () => (
       </ul>
 
     </div>
-  </nav>
+  </NavStyle>
 );
 
 export default Navigation;
