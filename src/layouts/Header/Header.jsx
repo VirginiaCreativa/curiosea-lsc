@@ -14,7 +14,7 @@ const HeaderStyle = styled.header`
 `;
 
 const Header = () => (
-  <div className="container mx-auto">
+  <div>
     <HeaderStyle>
       <Logo size="30px" />
       <Navigation />

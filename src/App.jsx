@@ -1,10 +1,10 @@
 import React from 'react';
 
-import Header from './layouts/Header/Header';
+import Layout from './layouts/Layout';
 
 function App() {
   return (
-    <Header />
+    <Layout />
   );
 }
 
