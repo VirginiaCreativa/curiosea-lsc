@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Navigation = () => (
-  <nav className="flex items-center justify-end w-full">
+  <nav className="flex items-center">
     <div className="block md:hidden">
       <button type="button">--</button>
     </div>

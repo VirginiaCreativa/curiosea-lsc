@@ -1,7 +1,7 @@
 const color = {
   red: '#F23557',
   yellow: '#F0D43A',
-  blue: '#118DF0',
+  blue: '#110a4e',
   blue_ligth: '#118DF0',
   blue_dark: '#004182',
   grey_1: '#F7F7F7',
