@@ -11,6 +11,7 @@ const LoginStyle = styled.div`
 
 const LoginIn = styled.div`
   button {
+    font-size: 14px;
     color: ${Variable.blue};
     font-weight: 600;
     margin-right: 30px;
@@ -23,9 +24,10 @@ const LoginIn = styled.div`
 
 const SignUp = styled.div`
   button {
+    font-size: 14px;
     background-color: ${Variable.blue_ligth};
     color: ${Variable.white};
-    padding: 10px 20px;
+    padding: 10px 30px;
     border-radius: 100px;
     transition: all 0.1s ease;
     font-weight: 600;

@@ -18,7 +18,7 @@ const HeaderStyle = styled.header`
 const Header = () => (
   <div>
     <HeaderStyle>
-      <Logo size="30px" />
+      <Logo size="40px" />
       <Navigation />
       <Login />
     </HeaderStyle>

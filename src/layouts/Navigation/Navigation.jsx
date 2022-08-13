@@ -13,9 +13,14 @@ const NavList = styled.ul`
    li {
      a {
         margin: 0 10px;
-        font-weight: 400;
-        color: ${Variable.blue};
+        font-weight: 600;
+        font-size: 14px;
+        color: ${Variable.grey_3};
+        &:hover {
+          color: ${Variable.blue};
+        }
         &.active {
+          color: ${Variable.blue};
           font-weight: 600;
         }
       }
@@ -31,7 +36,7 @@ const Navigation = () => (
         <li><a href="/" className="active">Home</a></li>
         <li><a href="/lsc">LSC</a></li>
         <li><a href="/cursos">Cursos</a></li>
-        <li><a href="/equipo">Equípo</a></li>
+        <li><a href="/equipo">Equipo</a></li>
         <li><a href="/contactenos">Contáctenos</a></li>
       </NavList>
 
