@@ -13,14 +13,13 @@ const NavList = styled.ul`
    li {
      a {
         margin: 0 10px;
-        font-weight: 700;
+        font-weight: 500;
         font-size: 16px;
         color: ${Variable.grey_4};
         &:hover {
           color: ${Variable.blue};
         }
         &.active {
-          font-weight: 700;
           color: ${Variable.blue};
         }
       }
