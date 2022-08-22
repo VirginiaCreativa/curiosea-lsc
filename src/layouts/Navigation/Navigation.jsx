@@ -13,15 +13,15 @@ const NavList = styled.ul`
    li {
      a {
         margin: 0 10px;
-        font-weight: 600;
-        font-size: 14px;
-        color: ${Variable.grey_3};
+        font-weight: 700;
+        font-size: 16px;
+        color: ${Variable.grey_4};
         &:hover {
           color: ${Variable.blue};
         }
         &.active {
+          font-weight: 700;
           color: ${Variable.blue};
-          font-weight: 600;
         }
       }
     }
