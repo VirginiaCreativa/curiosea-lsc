@@ -39,15 +39,19 @@ const SignUp = styled.div`
 `;
 
 
-const Login = () => (
-  <LoginStyle>
-    <LoginIn className="LoginIn">
-      <button type="button">Login In</button>
-    </LoginIn>
-    <SignUp>
-      <button type="button">Sign Up</button>
-    </SignUp>
-  </LoginStyle>
+const Login = ({ css }) => (
+
+  <div className="hidden md:block">
+
+    <LoginStyle >
+      <LoginIn className="LoginIn">
+        <button type="button">Login In</button>
+      </LoginIn>
+      <SignUp>
+        <button type="button">Sign Up</button>
+      </SignUp>
+    </LoginStyle>
+  </div>
 );
 
 export default Login;

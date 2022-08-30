@@ -5,7 +5,6 @@ import Footer from './Footer/Footer';
 import Header from './Header/Header';
 
 const Wrapper = styled.div`
-  display: inline-grid;
   min-height: 76vh ;
 `;
 
@@ -13,7 +12,7 @@ const Wrapper = styled.div`
 function Layout({ children }) {
   return (
     <>
-      <div className="container mx-auto md:px-36 sm:px-0">
+      <div className="mx-auto xl:px-36 md:px-16 sm:px-10 px-5">
         <Header />
         <Wrapper>
           {children}

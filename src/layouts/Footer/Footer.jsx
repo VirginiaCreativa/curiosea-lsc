@@ -30,7 +30,7 @@ const YearNow = new Date().getFullYear();
 
 const Footer = () => (
   <FooterStyled>
-    <div className="container mx-auto">
+    <div className="mx-auto">
       <div className="flex justify-center">
         <div className="basis-1/4 flex justify-center items-center">
           <Logo size="40px" />

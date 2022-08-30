@@ -29,7 +29,9 @@ const NavList = styled.ul`
 const Navigation = () => (
   <NavStyle className="flex items-center">
     <div className="block md:hidden">
-      <button type="button">--</button>
+      <button type="button">
+        <i className="bx bx-menu" />
+      </button>
     </div>
     <div className="hidden md:block">
       <NavList className="flex space-x-4 align-middle">
@@ -39,7 +41,6 @@ const Navigation = () => (
         <li><Link to="/equipo">Equipo</Link></li>
         <li><Link to="/contactenos">Contáctenos</Link></li>
       </NavList>
-
     </div>
   </NavStyle>
 );
