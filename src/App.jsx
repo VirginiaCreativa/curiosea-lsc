@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 import background from './assets/background.jpg';
 import Layout from './layouts/Layout';
+import Routes from './routes/Routes';
 
 const Background = styled.div`
   background: url(${background}) no-repeat center center fixed;
@@ -12,7 +13,9 @@ const Background = styled.div`
 function App() {
   return (
     <Background>
-      <Layout />
+      <Layout>
+        <Routes />
+      </Layout>
     </Background>
   );
 }

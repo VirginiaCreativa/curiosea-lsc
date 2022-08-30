@@ -16,13 +16,11 @@ const HeaderStyle = styled.header`
 `;
 
 const Header = () => (
-  <div>
-    <HeaderStyle>
-      <Logo size="40px" />
-      <Navigation />
-      <Login />
-    </HeaderStyle>
-  </div>
+  <HeaderStyle>
+    <Logo size="40px" />
+    <Navigation />
+    <Login />
+  </HeaderStyle>
 );
 
 export default Header;

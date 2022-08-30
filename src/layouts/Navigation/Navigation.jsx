@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import styled from 'styled-components';
 
 import Variable from '../../styles/variable';
@@ -32,11 +33,11 @@ const Navigation = () => (
     </div>
     <div className="hidden md:block">
       <NavList className="flex space-x-4 align-middle">
-        <li><a href="/" className="active">Home</a></li>
-        <li><a href="/lsc">LSC</a></li>
-        <li><a href="/cursos">Cursos</a></li>
-        <li><a href="/equipo">Equipo</a></li>
-        <li><a href="/contactenos">Contáctenos</a></li>
+        <li><Link to="/" className="active">Home</Link></li>
+        <li><Link to="/lsc">LSC</Link></li>
+        <li><Link to="/cursos">Cursos</Link></li>
+        <li><Link to="/equipo">Equipo</Link></li>
+        <li><Link to="/contactenos">Contáctenos</Link></li>
       </NavList>
 
     </div>

@@ -16,9 +16,7 @@ function Layout({ children }) {
       <div className="container mx-auto md:px-36 sm:px-0">
         <Header />
         <Wrapper>
-          <div>
-            {children}
-          </div>
+          {children}
         </Wrapper>
       </div>
       <Footer />

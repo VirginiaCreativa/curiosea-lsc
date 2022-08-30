@@ -7,8 +7,8 @@ import Home from '../pages/Home';
 
 const Routers = () => (
   <Routes>
-    <Route exact path="/" component={Home} />
-    <Route exact path="/cursos" component={Cursos} />
+    <Route exact path="/" element={<Home />} />
+    <Route exact path="cursos" element={<Cursos />} />
   </Routes>
 );
 
