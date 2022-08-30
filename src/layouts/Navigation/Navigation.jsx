@@ -30,7 +30,7 @@ const Navigation = () => (
     <div className="block md:hidden">
       <button type="button">--</button>
     </div>
-    <div className=" hidden md:block">
+    <div className="hidden md:block">
       <NavList className="flex space-x-4 align-middle">
         <li><a href="/" className="active">Home</a></li>
         <li><a href="/lsc">LSC</a></li>
