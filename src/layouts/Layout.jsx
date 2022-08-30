@@ -1,10 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import Footer from './Footer/Footer';
 import Header from './Header/Header';
 
 const Wrapper = styled.div`
   display: inline-grid;
+  min-height: 70vh ;
 `;
 
 
@@ -17,6 +19,7 @@ function Layout({ children }) {
           {children}
         </div>
       </Wrapper>
+      <Footer />
     </div>
   );
 }
