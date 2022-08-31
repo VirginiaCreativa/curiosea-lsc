@@ -6,13 +6,14 @@ import ImgWoman from '../../assets/woman.png';
 const Banner = styled.div`
   display: flex;
   justify-content: space-between;
+  height: 400px;
 `;
 
 const BoxImg = styled.div`
 
 `;
 const Img = styled.img`
-  max-height: 50%;
+  max-height: 100%;
 `;
 
 const InfoBanner = styled.div`
@@ -20,7 +21,7 @@ const InfoBanner = styled.div`
 `;
 
 const HomeBanner = () => (
-  <div className="container mx-auto">
+  <div className="mx-auto">
     <Banner className="flex">
       <InfoBanner className="basis-2/4">
         <h1>Quieres aprender LSC</h1>

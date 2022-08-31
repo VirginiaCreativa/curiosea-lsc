@@ -8,7 +8,7 @@ import Routes from './routes/Routes';
 const Background = styled.div`
   background: url(${background}) no-repeat center center fixed;
   background-size: cover;
-  height: 100vh;
+  width: 100%;
 `;
 function App() {
   return (

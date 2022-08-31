@@ -5,7 +5,7 @@ import Footer from './Footer/Footer';
 import Header from './Header/Header';
 
 const Wrapper = styled.div`
-  min-height: 76vh ;
+  min-height: 76.4vh ;
 `;
 
 
