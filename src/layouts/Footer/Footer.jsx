@@ -30,15 +30,15 @@ const YearNow = new Date().getFullYear();
 
 const Footer = () => (
   <FooterStyled>
-    <div className="mx-auto">
-      <div className="flex justify-center">
-        <div className="basis-1/4 flex justify-center items-center">
+    <div className="mx-auto px-10 md:px-0">
+      <div className="flex flex-col sm:flex-row justify-center">
+        <div className="basis-full md:basis-1/4 mb-5 sm:mb-0 flex justify-center items-center">
           <Logo size="40px" />
         </div>
-        <div className="basis-1/2 flex justify-center items-center">
+        <div className="basis-full md:basis-1/2 mb-5 sm:mb-0 flex justify-center items-center">
           <Info>©{YearNow} Hecho a Colombia. Dev & Design with by @Virginia.Creativa. Model with by @YulieneModel</Info>
         </div>
-        <Redes className="basis-1/4 flex justify-center items-center">
+        <Redes className="basis-full md:basis-1/4 flex justify-center items-center">
           <i className="bx bxl-instagram" />
           <i className="bx bxl-facebook-square" />
           <i className="bx bxl-tiktok" />

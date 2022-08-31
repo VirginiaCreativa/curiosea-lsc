@@ -10,6 +10,10 @@ const HeaderStyle = styled.header`
   align-items: center ;
   justify-content: space-between ;
   padding: 40px 0;
+  @media (max-width: 500px) {
+    padding: 20px 0;
+    margin-bottom: 20px;
+  }
 `;
 
 const Header = () => (

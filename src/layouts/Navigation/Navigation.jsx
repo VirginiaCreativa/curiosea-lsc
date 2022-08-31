@@ -10,6 +10,12 @@ const NavStyle = styled.div`
   align-items:  center;
 `;
 
+const NavMobile = styled.div`
+  i {
+    font-size: 1.5rem;
+    color: ${Variable.grey_4} ;
+  }
+`;
 const NavList = styled.ul`
    li {
      a {
@@ -28,11 +34,11 @@ const NavList = styled.ul`
 `;
 const Navigation = () => (
   <NavStyle className="flex items-center">
-    <div className="block md:hidden">
+    <NavMobile className="block md:hidden">
       <button type="button">
         <i className="bx bx-menu" />
       </button>
-    </div>
+    </NavMobile>
     <div className="hidden md:block">
       <NavList className="flex space-x-4 align-middle">
         <li><Link to="/" className="active">Home</Link></li>

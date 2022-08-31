@@ -23,7 +23,7 @@ const InfoBanner = styled.div`
 `;
 
 const HomeBanner = () => (
-  <div className="md:mx-auto">
+  <div className="mx-auto">
     <Banner className="flex-col sm:flex-row">
       <InfoBanner className="basis-full sm:basis-2/4">
         <h1>Quieres aprender LSC</h1>
