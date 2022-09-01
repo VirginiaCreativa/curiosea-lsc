@@ -76,7 +76,7 @@ const HomeBanner = () => (
     <InfoBanner className="w-2/6">
       <h1 className="title_princ">¿Quieres aprender LSC?</h1>
       <h2 className="title_secu">Aquí te enseñamos</h2>
-      <p>Lengua de Seña Colombia es nuestra comunidad de sorda, queremos compartir para comunicación con la Persona Sorda </p>
+      <p>Lengua de Seña Colombia es nuestra comunidad de sorda, queremos compartir para comunicación con la Persona Sorda. Vamos curiosa! </p>
     </InfoBanner>
     <BoxImg className="">
       <Img src={ImgWoman} alt="" className="h-60 sm:h-full" />
