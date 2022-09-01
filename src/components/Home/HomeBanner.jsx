@@ -6,7 +6,8 @@ import Variable from '../../styles/variable';
 
 const Banner = styled.div`
   display: flex;
-  justify-content: space-between;
+  align-content: center;
+  position: relative;
   height: 600px;
   @media (max-width: 768px) {
     height: 400px;
@@ -14,21 +15,43 @@ const Banner = styled.div`
 `;
 
 const BoxImg = styled.div`
-
-  position: relative;
+  position: absolute;
+  top: 0;
+  left: 50%;
   display: flex;
   justify-content: center ;
+  max-height: 100%;
 `;
 
 const InfoBanner = styled.div`
+  position: relative;
+  left: 12%;
+  z-index: 2;
   display: flex;
   flex-direction: column ;
   justify-content: center ;
+  h1, h2 {
+    margin-bottom: 0;
+    padding: 0;
+    letter-spacing: -2px;
+    font-weight: 700;
+    font-size: 3rem;
+  }
+  .title_princ {
+    color: ${Variable.blue};
+  }
+  .title_secu {
+    position: relative;
+    top: -20px;
+    color: ${Variable.red};
+  }
+  p {
+    color: ${Variable.grey_4};
+  }
 `;
 
 const Img = styled.img`
-  position: absolute;
-  z-index: 2;
+ max-height: 600px;
 `;
 
 const ImgOver = styled.div`
@@ -49,13 +72,13 @@ const CircleYellow = styled.div`
 `;
 
 const HomeBanner = () => (
-  <Banner className="mx-auto flex-col sm:flex-row">
-    <InfoBanner className="basis-full h-5 sm:h-full sm:basis-2/4">
-      <h1>Quieres aprender LSC</h1>
-      <h1>Aquí te enseñamos</h1>
-      <p>Ipsum eu incididunt ullamco irure enim duis laboris magna nulla labore. Amet ullamco labore tempor anim minim eu. </p>
+  <Banner className="mx-auto flex-col sm:flex-row ">
+    <InfoBanner className="w-2/6">
+      <h1 className="title_princ">¿Quieres aprender LSC?</h1>
+      <h2 className="title_secu">Aquí te enseñamos</h2>
+      <p>Lengua de Seña Colombia es nuestra comunidad de sorda, queremos compartir para comunicación con la Persona Sorda </p>
     </InfoBanner>
-    <BoxImg className="basis-full sm:basis-2/4 h-80">
+    <BoxImg className="">
       <Img src={ImgWoman} alt="" className="h-60 sm:h-full" />
     </BoxImg>
   </Banner>
