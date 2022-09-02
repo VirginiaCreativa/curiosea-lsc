@@ -1,23 +1,17 @@
-{
-  "selections": [{
-      "id": 1,
-      "title": "Abecedario",
-      "present": "abed_present.jgp"
-    },
-    {
-      "id": 2,
-      "title": "Familiares",
-      "present": "family_present.jgp"
-    },
-    {
-      "id": 3,
-      "title": "Transporte",
-      "present": "transpote_present.jgp"
-    },
-    {
-      "id": 4,
-      "title": "Comdia/Frutas",
-      "present": "comidafrutas_present.jgp"
-    }
-  ]
-}
+[{
+  "id": 1,
+  "title": "Abecedario",
+  "present": "abed_present.jgp"
+}, {
+  "id": 2,
+  "title": "Familiares",
+  "present": "family_present.jgp"
+}, {
+  "id": 3,
+  "title": "Transporte",
+  "present": "transpote_present.jgp"
+}, {
+  "id": 4,
+  "title": "Comdia/Frutas",
+  "present": "comidafrutas_present.jgp"
+}]
