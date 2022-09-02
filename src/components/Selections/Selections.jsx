@@ -4,16 +4,27 @@ import styled from 'styled-components';
 import DataSelectios from '../../Data/Selections.json';
 
 const SelectionsStyled = styled.div`
-  display: flex;
+  margin: 60px 0;
 `;
 
+const SelectionsItems = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between ;
+`;
+
+const BoxSelection = styled.div`
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 20px;
+`;
 const Selections = () => (
-  <SelectionsStyled clasnName="mx-auto">
-    <div className="Selections_Item">
+  <SelectionsStyled clasnName="">
+    <SelectionsItems>
       {
-        DataSelectios.map(item => <div key={item.id}>{item.title}</div>)
+        DataSelectios.map(item => <BoxSelection key={item.id}>{item.title}</BoxSelection>)
       }
-    </div>
+    </SelectionsItems>
   </SelectionsStyled>
 );
 
