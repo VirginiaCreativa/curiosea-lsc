@@ -11,7 +11,8 @@ const Selections = () => (
     <SelectionsStyled classnName="">
       <SelectionsItems>
         {
-          DataSelectios.slice(0, 6).map(item => <BoxSelection key={item.id}>{item.title}</BoxSelection>)
+          DataSelectios.slice(0, 6).map(item => <BoxSelection key={item.id}>{item.title}
+          </BoxSelection>)
         }
       </SelectionsItems>
     </SelectionsStyled>
