@@ -42,7 +42,7 @@
   },
   {
     "id": 11,
-    "title": "Números",
+    "title": "Lenguaje y Comunicación",
     "present": "comidafrutas_present.jgp"
   },
   {
@@ -52,7 +52,32 @@
   },
   {
     "id": 13,
-    "title": "Números",
+    "title": "Salud",
+    "present": "comidafrutas_present.jgp"
+  },
+  {
+    "id": 14,
+    "title": "Sociedad",
+    "present": "comidafrutas_present.jgp"
+  },
+  {
+    "id": 15,
+    "title": "Paises/Ciudades",
+    "present": "comidafrutas_present.jgp"
+  },
+  {
+    "id": 16,
+    "title": "Tecnología",
+    "present": "comidafrutas_present.jgp"
+  },
+  {
+    "id": 17,
+    "title": "Tiempo",
+    "present": "comidafrutas_present.jgp"
+  },
+  {
+    "id": 18,
+    "title": "Transporte",
     "present": "comidafrutas_present.jgp"
   }
 ]
