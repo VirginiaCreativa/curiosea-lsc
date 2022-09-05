@@ -5,9 +5,10 @@ export const SelectionsStyled = styled.div`
 `;
 
 export const SelectionsItems = styled.div`
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between ;
+  display: inline-grid;
+  grid-template-columns: repeat(6, 1fr);
+  height: 200px;
+  gap: 60px;
 `;
 
 export const BoxSelection = styled.div`
