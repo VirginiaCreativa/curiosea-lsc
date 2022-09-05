@@ -4,20 +4,55 @@
     "present": "abed_present.jgp"
   }, {
     "id": 2,
-    "title": "Familiares",
+    "title": "Alimentación",
     "present": "family_present.jgp"
   }, {
     "id": 3,
-    "title": "Transporte",
+    "title": "Animales",
     "present": "transpote_present.jgp"
   }, {
     "id": 4,
-    "title": "Comdia/Frutas",
+    "title": "Caracterísitcas y Sentimientos",
     "present": "comidafrutas_present.jgp"
   },
   {
     "id": 5,
-    "title": "Educación",
+    "title": "Colores",
+    "present": "comidafrutas_present.jgp"
+  },
+  {
+    "id": 6,
+    "title": "Cuerpos",
+    "present": "comidafrutas_present.jgp"
+  },
+  {
+    "id": 7,
+    "title": "Deportes",
+    "present": "comidafrutas_present.jgp"
+  },
+  {
+    "id": 8,
+    "title": "Fisiología",
+    "present": "comidafrutas_present.jgp"
+  },
+  {
+    "id": 9,
+    "title": "Hogar y Vivenda",
+    "present": "comidafrutas_present.jgp"
+  },
+  {
+    "id": 11,
+    "title": "Números",
+    "present": "comidafrutas_present.jgp"
+  },
+  {
+    "id": 12,
+    "title": "Números",
+    "present": "comidafrutas_present.jgp"
+  },
+  {
+    "id": 13,
+    "title": "Números",
     "present": "comidafrutas_present.jgp"
   }
 ]

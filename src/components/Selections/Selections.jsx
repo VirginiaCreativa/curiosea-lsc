@@ -22,7 +22,7 @@ const Selections = () => (
   <SelectionsStyled clasnName="">
     <SelectionsItems>
       {
-        DataSelectios.map(item => <BoxSelection key={item.id}>{item.title}</BoxSelection>)
+        DataSelectios.slice(0, 4).map(item => <BoxSelection key={item.id}>{item.title}</BoxSelection>)
       }
     </SelectionsItems>
   </SelectionsStyled>
